@@ -20,6 +20,7 @@ import pandas as pd
 # print(example)
 
 # read sample data as pandas DataFrame
-df = pq.read_pandas('./sample_data.parquet').to_pandas()
+df = pq.read_pandas('../Data/sample_data.parquet').to_pandas()
+df.to_csv('../Data/sample_data.csv')
 print(df.info())
 print(df.head())
