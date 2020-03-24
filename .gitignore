@@ -2,3 +2,4 @@ Data/sample_data.parquet
 Data/sample_data.csv
 Data/original_url.csv
 Data/origin_surt_url.csv
+Data/hash128bit.csv
