@@ -17,7 +17,7 @@ int main(int argc, char** argv) {
     std::ofstream newFile;
     newFile.open("hashValue.csv");
     std::ifstream myFile;
-    myFile.open("originalURL.csv");
+    myFile.open("origin_simpleclean.csv");
     std::string line;
     newFile << "Cleaned Original URL" << "," << "City Hash: 64 bit Hash Value" << "," << "City Hash: 32 bit Hash Value" << "\n";
     
