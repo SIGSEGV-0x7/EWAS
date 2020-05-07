@@ -2,7 +2,7 @@
 
 import csv
 
-myfile1 = open("simplehash.csv","r",encoding='utf-8')
+myfile1 = open("hash128bit.csv","r",encoding='utf-8')
 myfile2 = open("addColumn.csv","w",encoding='utf-8')
 counter = 0
 for i in myfile1:
