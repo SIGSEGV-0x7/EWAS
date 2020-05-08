@@ -1,12 +1,8 @@
 import pyarrow as pa
 import pyarrow.parquet as pq
 import pandas as pd
-import linecache
-import csv
 import numpy as np
-import os
-import psutil
-import time
+
 
 
 table = pq.read_table("sample_data.parquet")
