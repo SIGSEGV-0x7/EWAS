@@ -1,8 +1,10 @@
 # Efficient Web Archive Searching
 
+This project utilizes various existing hashing algorithms and implemented Simple Hash Algorithm to convert URLs to a sortable and shortened format locally to improve web archive access efficiency.
+
 ## Installation and Setup
 
-1. 64-bit version of Python 3.7 or higher (32-bit will lead to a PEP517 Error during the Pyarrow installation process).
+1. 64-bit version of Python 3.7 or higher (32-bit will lead to a PEP517 Error during Pyarrow installation).
 
 2. Clone this repository to local machine.
 
@@ -35,17 +37,16 @@
 
 ### Data/
 
-This directory is used to store any large file. It has been added to .gitignore in order to avoid long upload and download time. The read_this.txt file is used as a place holder file.
+This directory is used to store any large data files. It has been added to .gitignore in order to avoid long upload and download time. The read_this.txt file is used as a place holder.
 
 ### Extract/
 
 * Input file:
   * Apache Parquet file
-* Output file:
-  * original_url.csv
-  * origin_surt_url.csv
 * Jupyter Notebook file:
   * extract.ipynb
+* Output file:
+  * origin_surt_url.csv
 
 ### SimpleHash/
 
@@ -108,3 +109,17 @@ This directory is used to store any large file. It has been added to .gitignore 
   * city.o
 * Output file:
   * hashValue.csv
+
+## Authors
+
+* Ming Cheng
+* Yijing Wu
+* Lin Zhang
+* Jinyang Li
+
+## Acknowledgments
+
+* Xinyue Wang
+* [Edward A. Fox](http://fox.cs.vt.edu/)
+* [Lenwood S. Heath](http://people.cs.vt.edu/heath/)
+* Hat tip to anyone whose code was used.

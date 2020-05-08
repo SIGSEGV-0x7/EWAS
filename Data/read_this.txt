@@ -1,3 +1,3 @@
 This is a place holder file for Data directory.
 
-Please download appropriate data files from Google Drive and place under this directory.
+Please place any large data files under this directory.
