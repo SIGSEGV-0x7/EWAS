@@ -115,6 +115,7 @@ This directory is used to store any large data files. It has been added to .giti
 * Ming Cheng
 * Yijing Wu
 * Lin Zhang
+* Xiaolin Zhou
 * Jinyang Li
 
 ## Acknowledgments
