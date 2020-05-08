@@ -1,3 +1,3 @@
 # EWAS
 
-Install python requirements with **pip install -r python_requirement.txt** command line.
+Install python requirements with **python -m pip install -r python_requirement.txt** command line.
